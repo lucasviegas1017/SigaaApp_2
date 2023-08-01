@@ -76,5 +76,10 @@
 
   "SEARCH_TITLE": "Turmas 2023/2",
   "SEARCH_PLACEHOLDER": "Procure um item da lista, ex: \"ENE0022\", ou,",
-  "PROFILE_TITLE": "Aluno"
+  "SEARCH_DESCRIPITION":"nome(parte) ou codigo da disciplina",
+  "PROFILE_TITLE": "Aluno",
+
+  "ADICIONAR_TURMA_TITLE":"confirmação",
+  "ADICIONAR_TURMA_DESCRIPITION":"informe a prioridade para o pedido",
+  "ADICIONAR_TURMA_INPUTNAME":"prioridade"
 }
