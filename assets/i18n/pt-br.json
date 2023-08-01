@@ -1,0 +1,80 @@
+{
+  "BACK_BUTTON_TEXT": "Voltar",
+
+  "NAME": "Nome",
+  "EMAIL": "Email",
+  "USERNAME": "Nome de Usuário",
+  "PASSWORD": "Senha",
+  "LOGIN": "Entrar",
+  "SIGNUP": "Cadastre-se",
+
+  "TAB1_TITLE": "Perfil",
+  "TAB2_TITLE": "Matriculas",
+  "TAB3_TITLE": "HORARIOS",
+  "TAB4_TITLE": "TURMAS",
+
+  "MAP_TITLE": "Mapa",
+
+  "TUTORIAL_SKIP_BUTTON": "Pular",
+  "TUTORIAL_CONTINUE_BUTTON": "CoSSSntinuar",
+
+  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao Sigaa App",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "O Sigaa App é um app de matricula da UnB.",
+
+  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o Sigaa App",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "O aluno devera entrar no app com a matricula e a senha, e  assim fazer o cadastro nas materias que deseja.",
+
+ "TUTORIAL_SLIDE3_TITLE": "Iniciando o projeto",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Precisa de ajuda? Dê uma olhada no README do Super Starter para um tutorial completo",
+
+  "TUTORIAL_SLIDE4_TITLE": "Pronto para Usar?",
+
+  "WELCOME_INTRO": "Bem vindo ao SigaaApp",
+
+  "SETTINGS_TITLE": "Configurações",
+  "SETTINGS_OPTION1": "Opção 1",
+  "SETTINGS_OPTION2": "Opção 2",
+  "SETTINGS_OPTION3": "Opção 3",
+  "SETTINGS_OPTION4": "Opção 4",
+
+  "SETTINGS_PROFILE_BUTTON": "Editar Perfil",
+
+  "SETTINGS_PAGE_PROFILE": "Editar Perfil",
+
+  "WELCOME_TITLE": "Bem-vindo",
+
+  "LOGIN_TITLE": "Entrar",
+  "LOGIN_ERROR": "Não foi possível entrar na sua conta. Verifique seus dados e tente novamente.",
+  "LOGIN_BUTTON": "Entrar",
+  "SIGNUP_TITLE": "Cadastre-se",
+  "SIGNUP_ERROR": "Não foi possível criar sua conta. Verifique seus dados e tente novamente.",
+ 
+
+  "LIST_MASTER_TITLE": "Itens",
+
+  "MATRICULA_TITLE_DISCIPLINA": "Disciplina",
+  "MATRICULA_TITLE_TURMA": "Turma",
+  "MATRICULA_TITLE_STATUS": "Status",
+  "MATRICULA_TITLE_OFERTADAS": "Vagas ofertadas",
+  "MATRICULA_TITLE_OCUPADAS": "Vagas ocupadas",
+  "MATRICULA_TITLE_HORARIOS": "Horários",
+
+  "ITEM_CREATE_TITLE": "Novo Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Adicionar Imagem",
+
+  "ITEM_NAME_PLACEHOLDER": "Nome",
+  "ITEM_ABOUT_PLACEHOLDER": "Sobre",
+
+  "DONE_BUTTON": "Pronto",
+  "CANCEL_BUTTON": "Cancelar",
+  "DELETE_BUTTON": "Apagar",
+  "CONFIRM_BUTTON":"Confirmar",
+  "REJECT_BUTTON": "Rejeitar",
+
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Turmas 2023/2",
+  "SEARCH_PLACEHOLDER": "Procure um item da lista, ex: \"ENE0022\", ou,",
+  "PROFILE_TITLE": "Aluno"
+}

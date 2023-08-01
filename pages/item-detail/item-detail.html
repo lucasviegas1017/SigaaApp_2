@@ -1,0 +1,43 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ matricula.turma.disciplina.codigo }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <!--<div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div>-->
+
+  <div class="item-detail" padding>
+    <ion-item padding>
+      <h6>{{matricula.turma.disciplina.nome}}</h6>
+    </ion-item>
+<ion-item padding>
+    <p><b>{{matriculaTitles.turma}}:</b>{{matricula.turma.codigo}}</p>
+    <p><b>{{matriculaTitles.vagasOfertadas}}:</b>{{matricula.turma.vagasOfertadas}}</p>
+    <p><b>{{matriculaTitles.vagasOcupadas}}:</b>{{matricula.turma.vagasOcupadas}}</p>
+    <p><b>{{matriculaTitles.horarios}}:</b></p>
+  </ion-item>
+  <ion-item>
+    <p *ngFor="let horario of matricula.turma.horario">{{horario.dia+': '+horario.horaInicio+'-'+horario.horaFim}}</p>
+    <p><b>{{matriculaTitles.status}}:</b>{{matricula.status  | translate}}</p>
+  </ion-item>
+    <button ion-button>{{matriculaTitles.confirma}}</button>
+    <button ion-button color="danger">{{matriculaTitles.rejeita}}</button>
+  </div>
+  <div>
+  <ion-footer>
+    <button ion-button icon-left color="danger" (click)="alterarstatus('Retirado')">
+      <ion-icon name="close-circle"></ion-icon>
+      {{ 'REJECT_BUTTON' | translate }}
+    </button>  
+    <button ion-button icon-left color="secondary" (click)="alterarStatus('Confirmado')">
+      <ion-icon name="checkmark-circle"></ion-icon>
+      {{ 'CONFIRM_BUTTON' | translate }}
+    </button>  
+  </ion-footer>
+  </div>
+</ion-content>
